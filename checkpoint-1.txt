@@ -1,0 +1,9 @@
+Checkpoint 1: Portfolio site with optimized About Me section, muted green dark mode, clean hero, and organized CSS.
+
+Files included in this checkpoint:
+- index.html
+- style.css
+- script.js
+- clouds.css
+
+State as of 7 September 2025.

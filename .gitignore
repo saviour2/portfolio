@@ -1,0 +1,12 @@
+# Node modules and build
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
+# VS Code
+.vscode/
+# OS files
+Thumbs.db
+# PDF and assets
+assets/files/*.pdf

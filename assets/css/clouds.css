@@ -1,0 +1,28 @@
+.cloud {
+  position: absolute;
+  background: radial-gradient(
+    circle at 40% 40%,
+    #fffbe8 0%,
+    #f7faff 40%,
+    #e3e6e8 70%,
+    #ffffff 100%
+  );
+  border-radius: 50%;
+  filter: blur(2px);
+  pointer-events: none;
+}
+.matrix-rain {
+  position: absolute;
+  font-family: "Space Mono", monospace;
+  color: #39ff14;
+  font-size: 1.2rem;
+  text-shadow: 0 0 8px #39ff14, 0 0 2px #fff;
+  pointer-events: none;
+  user-select: none;
+}
+body:not(.dark) .matrix-rain {
+  display: none;
+}
+body.dark .cloud {
+  display: none;
+}

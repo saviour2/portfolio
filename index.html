@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud & Security Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/clouds.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <script src="https://assets.codepen.io/16327/ScrollTrigger3.min.js"></script>
+  </head>
+  <body>
+    <div class="global-bg" id="global-bg"></div>
+    <nav class="navbar">
+      <div class="logo">☁️ CloudSec</div>
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certs" class="nav-link">Certifications</a></li>
+        <li><a href="#connect" class="nav-link">Connect</a></li>
+      </ul>
+      <div class="navbar-actions">
+        <button id="theme-toggle" aria-label="Toggle theme">
+          <span class="toggle-icon">🌙</span>
+        </button>
+        <a
+          href="assets/files/Saikat Das_CV.pdf"
+          class="resume-btn"
+          id="resume-btn"
+          >My Resume</a
+        >
+      </div>
+    </nav>
+    <main>
+      <section id="hero" class="section hero-section">
+        <div class="section-bg hero-section-bg"></div>
+        <div class="global-bg" id="global-bg"></div>
+
+        <div class="hero-bg" id="hero-bg"></div>
+        <div class="hero-content">
+          <h1 class="headline">Cloud Engineering & Security Portfolio</h1>
+          <p class="tagline">
+            Building secure, scalable solutions in the cloud.
+          </p>
+          <a href="#connect" class="cta-btn">Connect With Me</a>
+        </div>
+        <div style="height: 20vh"></div>
+      </section>
+      <section id="about" class="section about-section">
+        <div class="section-bg about-section-bg"></div>
+        <div class="section-card">
+          <h2 style="text-align: center; margin-bottom: 2rem">About Me</h2>
+          <div
+            class="about-content"
+            style="
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              gap: 2.5rem;
+            "
+          >
+            <p
+              class="bio"
+              style="
+                max-width: 700px;
+                text-align: center;
+                font-size: 1.15rem;
+                margin-bottom: 0.5rem;
+                line-height: 1.7;
+              "
+            >
+              Cloud engineer & security enthusiast focused on building
+              resilient, scalable systems.<br />
+              <br />Skilled in <b>AWS</b>, <b>Azure</b>, <b>GCP</b>,
+              <b>Kubernetes</b>, and web development.<br />
+              Passionate about secure cloud solutions and automation.
+            </p>
+            <ul
+              class="hero-details-list"
+              style="
+                background: rgba(110, 198, 255, 0.08);
+                border-radius: 16px;
+                padding: 1.5rem 2rem;
+                box-shadow: 0 2px 16px rgba(110, 198, 255, 0.08);
+                margin-bottom: 0;
+                max-width: 400px;
+                width: 100%;
+              "
+            >
+              <li style="margin-bottom: 1rem; font-size: 1.1rem">
+                Cloud-native architecture
+              </li>
+              <li style="margin-bottom: 1rem; font-size: 1.1rem">
+                Security automation
+              </li>
+              <li style="margin-bottom: 1rem; font-size: 1.1rem">
+                DevOps & CI/CD
+              </li>
+              <li style="font-size: 1.1rem">Multi-cloud deployments</li>
+            </ul>
+            <div
+              class="skills"
+              style="
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1.2rem;
+                justify-content: center;
+                margin-top: 1.5rem;
+              "
+            >
+              <span
+                class="skill"
+                style="
+                  background: #fff;
+                  color: #6ec6ff;
+                  box-shadow: 0 0 12px #6ec6ff;
+                "
+                >AWS</span
+              >
+              <span
+                class="skill"
+                style="
+                  background: #fff;
+                  color: #6ec6ff;
+                  box-shadow: 0 0 12px #6ec6ff;
+                "
+                >Azure</span
+              >
+              <span
+                class="skill"
+                style="
+                  background: #fff;
+                  color: #6ec6ff;
+                  box-shadow: 0 0 12px #6ec6ff;
+                "
+                >GCP</span
+              >
+              <span
+                class="skill"
+                style="
+                  background: #fff;
+                  color: #6ec6ff;
+                  box-shadow: 0 0 12px #6ec6ff;
+                "
+                >Kubernetes</span
+              >
+              <span
+                class="skill"
+                style="
+                  background: #fff;
+                  color: #6ec6ff;
+                  box-shadow: 0 0 12px #6ec6ff;
+                "
+                >Docker</span
+              >
+              <span
+                class="skill"
+                style="
+                  background: #fff;
+                  color: #6ec6ff;
+                  box-shadow: 0 0 12px #6ec6ff;
+                "
+                >JavaScript</span
+              >
+              <span
+                class="skill"
+                style="
+                  background: #fff;
+                  color: #6ec6ff;
+                  box-shadow: 0 0 12px #6ec6ff;
+                "
+                >Python</span
+              >
+              <span
+                class="skill"
+                style="
+                  background: #fff;
+                  color: #6ec6ff;
+                  box-shadow: 0 0 12px #6ec6ff;
+                "
+                >Security</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="section projects-section">
+        <div class="section-bg projects-section-bg"></div>
+        <div class="section-card">
+          <h2>Projects</h2>
+          <div class="tabs">
+            <button class="tab-btn active" data-tab="completed">
+              Completed
+            </button>
+            <button class="tab-btn" data-tab="inprogress">In Progress</button>
+            <button class="tab-btn" data-tab="upcoming">Upcoming</button>
+          </div>
+          <div class="tab-content" id="completed">
+            <div class="project-card">
+              Cloud Security Dashboard
+              <p>
+                A real-time dashboard for monitoring cloud security events,
+                compliance, and threat intelligence across AWS, Azure, and GCP.
+              </p>
+              <ul>
+                <li>Multi-cloud integration</li>
+                <li>Alerting & reporting</li>
+                <li>Role-based access</li>
+              </ul>
+            </div>
+            <div class="project-card">
+              Kubernetes Automation Suite
+              <p>
+                Automates cluster provisioning, security policy enforcement, and
+                vulnerability scanning for Kubernetes environments.
+              </p>
+              <ul>
+                <li>Cluster lifecycle management</li>
+                <li>Security policy automation</li>
+                <li>Continuous scanning</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-content" id="inprogress" style="display: none">
+            <div class="project-card">
+              Serverless Threat Detection
+              <p>
+                Building a serverless framework for detecting and responding to
+                threats in cloud-native applications.
+              </p>
+              <ul>
+                <li>Lambda & Functions integration</li>
+                <li>Real-time event analysis</li>
+                <li>Automated remediation</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-content" id="upcoming" style="display: none">
+            <div class="project-card">
+              Multi-Cloud Compliance Toolkit
+              <p>
+                Toolkit for automating compliance checks and reporting across
+                multiple cloud providers.
+              </p>
+              <ul>
+                <li>Policy templates</li>
+                <li>Automated audits</li>
+                <li>Exportable reports</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="certs" class="section certs-section">
+        <div class="section-bg certs-section-bg"></div>
+        <div class="section-card">
+          <h2>Certifications & Workshops</h2>
+          <div class="certs-grid">
+            <div class="cert-card">
+              AWS Certified Solutions Architect
+              <p>
+                Validated expertise in designing and deploying scalable, secure
+                cloud solutions on AWS.
+              </p>
+            </div>
+            <div class="cert-card">
+              Certified Kubernetes Security Specialist
+              <p>
+                Demonstrated skills in securing Kubernetes clusters and
+                workloads.
+              </p>
+            </div>
+            <div class="cert-card">
+              Google Cloud Professional Engineer
+              <p>
+                Professional-level knowledge of Google Cloud architecture and
+                security.
+              </p>
+            </div>
+            <div class="cert-card">
+              DevSecOps Workshop
+              <p>
+                Hands-on workshop on integrating security into DevOps pipelines.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="connect" class="section connect-section">
+        <div class="section-bg connect-section-bg"></div>
+        <div class="section-card">
+          <h2>Connect With Me</h2>
+          <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="send-btn">Send</button>
+          </form>
+          <div class="connect-details">
+            <p>
+              Let's collaborate on cloud security, automation, or open-source
+              projects. Reach out for consulting, speaking, or partnership
+              opportunities!
+            </p>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social cloud">☁️</a>
+            <a href="#" class="social linkedin">in</a>
+            <a href="#" class="social github">gh</a>
+            <a href="#" class="social twitter">tw</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
